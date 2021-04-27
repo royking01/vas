@@ -20,9 +20,9 @@ export default {
     onClick(e) {
       this.$emit("movies-available", Movies);
       let res = showTime.filter((item) => {
-        console.log("res one",item.id );
+        console.log("res one", item.id);
         return item.id == e;
-      }, console.log('eee',res));
+      });
     },
   },
 };

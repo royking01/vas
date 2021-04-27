@@ -70,10 +70,10 @@ export default defineComponent({
       console.log("main", e);
       this.movies = e;
     },
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    show(e: any){
-      console.log('showtime',e)
-    }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    show(e: any) {
+      console.log("showtime", e);
+    },
   },
 });
 </script>
